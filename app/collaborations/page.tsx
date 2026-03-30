@@ -53,47 +53,6 @@ export default function CollaborationsPage() {
             </div>
           </div>
         </div>
-
-        {/* CISO */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="order-2 lg:order-1 space-y-8">
-            <h3 className="text-2xl font-bold text-gray-900">Securing the Digital Frontier</h3>
-            <p className="text-gray-600">
-              Cybersecurity is paramount. Our partnership with CISO guarantees that our curriculum is not just theoretical, but aligned with national security standards and real-world threat landscapes.
-            </p>
-            <div className="bg-gray-50 p-6 rounded-2xl border border-gray-200">
-              <p className="text-gray-900 font-medium italic">
-                &quot;Training the defenders of tomorrow&apos;s digital infrastructure with official government body support.&quot;
-              </p>
-            </div>
-          </div>
-          <div className="order-1 lg:order-2 bg-white p-12 rounded-3xl border border-gray-100 shadow-xl relative overflow-hidden">
-            <div className="absolute top-0 left-0 w-32 h-32 bg-gray-50 rounded-br-full -z-10" />
-            <div className="w-20 h-20 bg-gray-50 border border-gray-100 rounded-2xl flex items-center justify-center mb-8 shadow-sm">
-              <ShieldCheck className="w-10 h-10 text-gray-900" />
-            </div>
-            <h2 className="text-3xl font-display font-bold text-gray-900 mb-4">CISO</h2>
-            <p className="text-lg text-gray-900 font-medium mb-6">Cybersecurity Government Body</p>
-            <p className="text-gray-600 mb-8 leading-relaxed">
-              Our official collaboration with CISO elevates our cybersecurity programs to a national standard. We work closely to develop curricula that address current and emerging cyber threats, providing students with unparalleled expertise.
-            </p>
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3 text-gray-700">
-                <div className="w-1.5 h-1.5 rounded-full bg-gray-900 mt-2" />
-                <span>Official cybersecurity education programs and certifications.</span>
-              </li>
-              <li className="flex items-start gap-3 text-gray-700">
-                <div className="w-1.5 h-1.5 rounded-full bg-gray-900 mt-2" />
-                <span>Specialized incubation center support for security startups.</span>
-              </li>
-              <li className="flex items-start gap-3 text-gray-700">
-                <div className="w-1.5 h-1.5 rounded-full bg-gray-900 mt-2" />
-                <span>Direct pathways to government and enterprise security roles.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
       </div>
     </div>
   );

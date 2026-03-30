@@ -44,7 +44,7 @@ export default function GalleryPage() {
         
         <div className="mt-16 text-center">
           <p className="text-gray-500 text-sm">
-            * Note: These are placeholder images. The actual gallery will be populated with real photos from DIKANZ events and facilities.
+            * Note: The gallery showcases moments from DIKANZ events and facilities.
           </p>
         </div>
       </div>

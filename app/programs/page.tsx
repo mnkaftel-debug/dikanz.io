@@ -69,9 +69,6 @@ export default function ProgramsPage() {
               </div>
               <h2 className="text-3xl font-display font-bold text-gray-900 mb-4">{program.title}</h2>
               <p className="text-lg text-gray-600 mb-8">{program.description}</p>
-              <button className="px-6 py-3 bg-dikanz-dark text-white rounded-full font-medium hover:bg-gray-800 transition-colors w-full sm:w-auto">
-                Download Syllabus
-              </button>
             </div>
             
             <div className="w-full lg:w-2/3 space-y-12">

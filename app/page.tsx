@@ -129,7 +129,7 @@ export default function Home() {
               className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-gray-100 shadow-2xl"
             >
               <Image 
-                src="https://picsum.photos/seed/tech-education/800/600" 
+                src="https://picsum.photos/seed/tech-students/800/600" 
                 alt="Students working on advanced technology" 
                 fill
                 className="object-cover"
@@ -190,15 +190,15 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
                   <h3 className="text-xl font-bold text-white mb-2 flex items-center gap-2">
-                    Royal Rhythm AI <span className="text-xs px-2 py-1 bg-sky-500/20 text-sky-300 rounded-full">Live</span>
+                    Royal Rhythm AI <span className="text-xs px-2 py-1 bg-sky-500/20 text-sky-300 rounded-full">Project</span>
                   </h3>
-                  <p className="text-gray-400 text-sm">An advanced AI-powered music and song generation platform revolutionizing audio creation.</p>
+                  <p className="text-gray-400 text-sm">An innovative AI-powered song generation project created by DIKANZ company to revolutionize audio creation.</p>
                 </div>
                 <div className="bg-white/5 border border-white/10 rounded-2xl p-6 backdrop-blur-sm">
                   <h3 className="text-xl font-bold text-white mb-2 flex items-center gap-2">
-                    AI Justice GPT <span className="text-xs px-2 py-1 bg-sky-500/20 text-sky-300 rounded-full">Live</span>
+                    AI Justice GPT <span className="text-xs px-2 py-1 bg-sky-500/20 text-sky-300 rounded-full">Project</span>
                   </h3>
-                  <p className="text-gray-400 text-sm">A sophisticated AI-based legal assistant system designed to streamline legal research and documentation.</p>
+                  <p className="text-gray-400 text-sm">An AI-powered Indian Constitution education platform created by DIKANZ to educate citizens about their legal rights.</p>
                 </div>
               </div>
               
@@ -211,7 +211,7 @@ export default function Home() {
             
             <div className="relative h-[500px] rounded-3xl overflow-hidden border border-white/10">
                <Image 
-                src="https://picsum.photos/seed/ai-dashboard/800/1000" 
+                src="https://picsum.photos/seed/tech-dashboard/800/1000" 
                 alt="DIKANZ Ecosystem Dashboard" 
                 fill
                 className="object-cover opacity-80"
@@ -231,7 +231,7 @@ export default function Home() {
             We collaborate with leading government bodies and institutions to ensure our programs meet the highest industry standards.
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 gap-8 max-w-md mx-auto">
             <motion.div 
               whileHover={{ y: -5 }}
               className="p-8 rounded-2xl border border-gray-200 bg-gray-50 flex flex-col items-center text-center"
@@ -242,18 +242,6 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">CCOE Telangana</h3>
               <p className="text-sm text-gray-600">Centre of Excellence, Telangana. Collaboration for innovation, incubation support, and advanced technology programs.</p>
-            </motion.div>
-            
-            <motion.div 
-              whileHover={{ y: -5 }}
-              className="p-8 rounded-2xl border border-gray-200 bg-gray-50 flex flex-col items-center text-center"
-            >
-              <div className="w-24 h-24 bg-white rounded-full shadow-sm flex items-center justify-center mb-6 border border-gray-100">
-                {/* Placeholder for CISO Logo */}
-                <span className="font-bold text-gray-400">CISO</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900 mb-2">CISO</h3>
-              <p className="text-sm text-gray-600">Cybersecurity Government Body. Official collaboration for cybersecurity education programs and incubation center support.</p>
             </motion.div>
           </div>
           
@@ -267,7 +255,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-24 bg-dikanz-blue relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/pattern/1920/1080')] opacity-10 mix-blend-overlay object-cover" />
+        <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/tech-pattern/1920/1080')] opacity-10 mix-blend-overlay bg-cover bg-center" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Ready to Build the Future?</h2>
           <p className="text-xl text-blue-100 mb-10">
