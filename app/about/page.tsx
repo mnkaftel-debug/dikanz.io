@@ -33,8 +33,8 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
             <Image 
-              src="https://picsum.photos/seed/dikanz-story/800/600" 
-              alt="DIKANZ Innovation Hub" 
+              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80" 
+              alt="DIKANZ Innovation Team" 
               fill
               className="object-cover"
               referrerPolicy="no-referrer"

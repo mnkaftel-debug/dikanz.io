@@ -46,8 +46,8 @@ export default function FuturePage() {
             </div>
             <div className="relative aspect-video rounded-3xl overflow-hidden bg-gray-100 shadow-xl">
               <Image 
-                src="https://picsum.photos/seed/junior-tycoons/800/450" 
-                alt="Junior Business Tycoons" 
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80" 
+                alt="Junior Business Tycoons Program - Future Entrepreneurs" 
                 fill
                 className="object-cover"
                 referrerPolicy="no-referrer"

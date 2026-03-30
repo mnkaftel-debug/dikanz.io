@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const galleryImages = [
-  { id: 1, src: 'https://picsum.photos/seed/dikanz-1/800/800', alt: 'Students in Robotics Lab', span: 'col-span-1 row-span-1' },
-  { id: 2, src: 'https://picsum.photos/seed/dikanz-2/1600/800', alt: 'AI Hackathon Event', span: 'col-span-2 row-span-1' },
-  { id: 3, src: 'https://picsum.photos/seed/dikanz-3/800/1600', alt: '3D Printing Workshop', span: 'col-span-1 row-span-2' },
-  { id: 4, src: 'https://picsum.photos/seed/dikanz-4/800/800', alt: 'Cybersecurity Seminar', span: 'col-span-1 row-span-1' },
-  { id: 5, src: 'https://picsum.photos/seed/dikanz-5/800/800', alt: 'Incubation Center Workspace', span: 'col-span-1 row-span-1' },
-  { id: 6, src: 'https://picsum.photos/seed/dikanz-6/1600/800', alt: 'Graduation and Pitch Day', span: 'col-span-2 row-span-1' },
+  { id: 1, src: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80', alt: 'Advanced Robotics Lab', span: 'col-span-1 row-span-1' },
+  { id: 2, src: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80', alt: 'AI & Coding Hackathon', span: 'col-span-2 row-span-1' },
+  { id: 3, src: 'https://images.unsplash.com/photo-1631558556885-215431f49f54?auto=format&fit=crop&q=80', alt: '3D Printing & Prototyping', span: 'col-span-1 row-span-2' },
+  { id: 4, src: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80', alt: 'Cybersecurity Defense Workshop', span: 'col-span-1 row-span-1' },
+  { id: 5, src: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80', alt: 'Startup Incubation Hub', span: 'col-span-1 row-span-1' },
+  { id: 6, src: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80', alt: 'Innovation Pitch Day', span: 'col-span-2 row-span-1' },
 ];
 
 export default function GalleryPage() {

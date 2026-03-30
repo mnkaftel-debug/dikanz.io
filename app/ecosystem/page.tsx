@@ -19,8 +19,8 @@ export default function EcosystemPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1 relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-gray-100">
             <Image 
-              src="https://picsum.photos/seed/music-ai/800/600" 
-              alt="Royal Rhythm AI Interface" 
+              src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80" 
+              alt="Royal Rhythm AI - Advanced Music Studio" 
               fill
               className="object-cover"
               referrerPolicy="no-referrer"
@@ -70,7 +70,7 @@ export default function EcosystemPage() {
               Indian Constitution AI education platform by DIKANZ company.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
-              Navigating civic rights and legal complexities is now more accessible. AI Justice GPT is an educational AI platform created by the DIKANZ company, specifically designed to educate citizens about the Indian Constitution. It makes learning about fundamental rights, duties, and legal frameworks interactive and easy to understand.
+              Democratizing legal knowledge through technology. AI Justice GPT is a sophisticated educational platform developed by DIKANZ to simplify the complexities of the Indian Constitution. By transforming dense legal frameworks into interactive, understandable insights, we empower citizens to navigate their fundamental rights and duties with confidence and clarity.
             </p>
             <ul className="space-y-3 mb-8">
               <li className="flex items-center gap-3 text-gray-700 font-medium">
@@ -89,8 +89,8 @@ export default function EcosystemPage() {
           </div>
           <div className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl bg-gray-100">
             <Image 
-              src="https://picsum.photos/seed/legal-ai/800/600" 
-              alt="AI Justice GPT Interface" 
+              src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80" 
+              alt="AI Justice GPT - Indian Constitution Education" 
               fill
               className="object-cover"
               referrerPolicy="no-referrer"

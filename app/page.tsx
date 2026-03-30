@@ -60,7 +60,7 @@ export default function Home() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-6 text-xl text-gray-600 max-w-3xl mx-auto mb-10 text-balance"
           >
-            DIKANZ EDU TECH bridges the gap between traditional learning and the real-world tech startup ecosystem. From student to entrepreneur.
+            DIKANZ EDU TECH is redefining the educational landscape by bridging the gap between academic excellence and the global tech startup ecosystem. We nurture students into visionary entrepreneurs.
           </motion.p>
           
           <motion.div 
@@ -129,8 +129,8 @@ export default function Home() {
               className="relative aspect-square md:aspect-[4/3] rounded-3xl overflow-hidden bg-gray-100 shadow-2xl"
             >
               <Image 
-                src="https://picsum.photos/seed/tech-students/800/600" 
-                alt="Students working on advanced technology" 
+                src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80" 
+                alt="Indian tech students collaborating on innovation" 
                 fill
                 className="object-cover"
                 referrerPolicy="no-referrer"
@@ -211,8 +211,8 @@ export default function Home() {
             
             <div className="relative h-[500px] rounded-3xl overflow-hidden border border-white/10">
                <Image 
-                src="https://picsum.photos/seed/tech-dashboard/800/1000" 
-                alt="DIKANZ Ecosystem Dashboard" 
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80" 
+                alt="DIKANZ Advanced AI Ecosystem Dashboard" 
                 fill
                 className="object-cover opacity-80"
                 referrerPolicy="no-referrer"
@@ -255,7 +255,7 @@ export default function Home() {
 
       {/* CTA Section */}
       <section className="py-24 bg-dikanz-blue relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/tech-pattern/1920/1080')] opacity-10 mix-blend-overlay bg-cover bg-center" />
+        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] opacity-10 mix-blend-overlay bg-cover bg-center" />
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">Ready to Build the Future?</h2>
           <p className="text-xl text-blue-100 mb-10">
